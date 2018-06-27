@@ -1,3 +1,4 @@
+function op0(){https//content.jwplatform.com/libraries/S5oiipIa.js}
 function op1(){jwplayer("op1").setup({file:"https://www.blogger.com/video-play.mp4?contentId=308bc48f0c9e9a3f",title:"Episode 1"});}
 function op2(){jwplayer("op2").setup({file:"https://www.blogger.com/video-play.mp4?contentId=15a813e5f724f48e",title:"Episode 2"});}
 function op3(){jwplayer("op3").setup({file:"https://www.blogger.com/video-play.mp4?contentId=8e6d058553194adc",title:"Episode 3"});}
@@ -998,8 +999,7 @@ function op997(){jwplayer("op997").setup({file:"",title:"Episode 997"});}
 function op998(){jwplayer("op998").setup({file:"",title:"Episode 998"});}
 function op999(){jwplayer("op999").setup({file:"",title:"Episode 999"});}
 function op1000(){jwplayer("op1000").setup({file:"",title:"Episode 1000"});}
-
-
+window.addEventListener("load", op0);
 window.addEventListener("load", op1);
 window.addEventListener("load", op2);
 window.addEventListener("load", op3);
