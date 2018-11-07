@@ -1,0 +1,12 @@
+/* Pagen Navigation with number */
+#blog-pager {margin: 10px 0 20px 25px;clear:both !important;padding:0;font-size:11px;font-weight:bold;text-align:center;}
+a.home-link, #blog-pager-newer-link a, #blog-pager-older-link a {background-color:#fff;border: 1px solid #ddd;padding:0px 12px;line-height:28px;color:#7d7d7d;border-radius: 3px;}
+#blog-pager-newer-link a {float:left;display:block;}
+#blog-pager-older-link a {float:right;display:block;}
+a.home-link {display:inline-block;}
+#blog-pager-older-link a:hover, #blog-pager-newer-link a:hover, a.home-link:hover {border: 1px solid #FF8100;}
+.feed-links { clear: both;display:none;}
+.displaypageNum a,.showpage a,.pagecurrent {padding: 8px 10px;margin-right: 3px;color: #7d7d7d;background-color: #242424;border: 1px solid #343434;display: inline-block;border-radius: 3px; user-select: none;}
+.displaypageNum a:hover,.showpage a:hover, .pagecurrent {border: 1px solid #FF8100;color: #FF8100}
+.showpageOf {display:none !important;}
+
