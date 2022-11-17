@@ -57,11 +57,4 @@ function dekrakenHeadJs() {
     var g = document.createElement("script");
     g.src = "https://www.googletagmanager.com/gtag/js?id=UA-128390188-1", g.type = "text/javascript", document.getElementsByTagName("head")[0].appendChild(g), window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-128390188-1")
 }
-window.addEventListener ? window.addEventListener("load", dekrakenHeadJs, !1) : window.attachEvent ? window.attachEvent("onload", dekrakenHeadJs) : window.onload = dekrakenHeadJs, $.ajax({
-    type: "GET",
-    url: "https://dekrakeninc.blogspot.com",
-    success: function () {},
-    error: function () {
-        window.location.href = "https://dekrakeninc.blogspot.com/"
-    }
-});
+window.addEventListener ? window.addEventListener("load", dekrakenHeadJs, !1) : window.attachEvent ? window.attachEvent("onload", dekrakenHeadJs) : window.onload = dekrakenHeadJs;
