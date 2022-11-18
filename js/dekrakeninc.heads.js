@@ -53,8 +53,10 @@ function dekrakenHeadJs() {
     var c = document.createElement("link");
     c.href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", c.rel = "stylesheet", document.getElementsByTagName("head")[0].appendChild(c);
     var d = document.createElement("script");
-    f.src = "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js", f.type = "text/javascript", f.setAttribute("crossorigin", "anonymous"), f.setAttribute("integrity", "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"), document.getElementsByTagName("head")[0].appendChild(f);
-    var g = document.createElement("script");
-    g.src = "https://www.googletagmanager.com/gtag/js?id=UA-128390188-1", g.type = "text/javascript", document.getElementsByTagName("head")[0].appendChild(g), window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-128390188-1")
+    d.src = "https://cdn.jsdelivr.net/gh/DekrakenInc/ajax@libs/js/dekrakeninc.views.counter.min.js", d.type = "text/javascript", document.getElementsByTagName("head")[0].appendChild(d);
+    var e = document.createElement("script");
+    e.src = "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js", e.type = "text/javascript", e.setAttribute("crossorigin", "anonymous"), e.setAttribute("integrity", "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"), document.getElementsByTagName("head")[0].appendChild(e);
+    var f = document.createElement("script");
+    f.src = "https://www.googletagmanager.com/gtag/js?id=UA-128390188-1", f.type = "text/javascript", document.getElementsByTagName("head")[0].appendChild(f), window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-128390188-1")
 }
 window.addEventListener ? window.addEventListener("load", dekrakenHeadJs, !1) : window.attachEvent ? window.attachEvent("onload", dekrakenHeadJs) : window.onload = dekrakenHeadJs;
