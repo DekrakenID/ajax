@@ -45,4 +45,4 @@ function suggestion(e) {
                 y = y.substring(0, A), document.write("<dekraken-formatted-string class=\"style-scope dekraken-video-renderer\" id=\"description-text\">" + y + " ...</dekraken-formatted-string>")
             } document.write("</div></div></a></div></dekraken-video-renderer>")
     }
-}
+};
