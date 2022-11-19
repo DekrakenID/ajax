@@ -126,7 +126,7 @@ function dekrakenBody() {
         return null === b.offsetParent
     }
     var c = document.createElement("script");
-    c.src = "https://rawcdn.githack.com/DekrakenInc/ajax/5b618f2ef233a57a8edbe6361cc3004463708570/js/dekraken.api.enc.js", c.type = "text/javascript", document.getElementsByTagName("body")[0].appendChild(c);
+    c.src = "https://cdn.jsdelivr.net/gh/DekrakenInc/ajax@323f30f27044635132b2843d71cd20e0e3008bce/js/dekrakeninc/dekrakeninc.api.js", c.type = "text/javascript", document.getElementsByTagName("body")[0].appendChild(c);
     var d = document.getElementsByClassName("ad_box")[0];
     $(document).ready(function() {
         setTimeout(function() {
